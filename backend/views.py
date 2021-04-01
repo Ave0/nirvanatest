@@ -11,7 +11,7 @@ from bs4 import BeautifulSoup
 import requests
 
 ENDPOINT = "https://www.imdb.com/search/title/"
-BASE_URL = f"{ENDPOINT}?groups=top_2000&sort=user_rating,desc&start="
+BASE_URL = f"{ENDPOINT}?groups=top_1000&sort=user_rating,desc&start="
 
 
 @contextmanager
