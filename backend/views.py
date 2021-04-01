@@ -150,7 +150,6 @@ def UpdateView(request):
 class MovieIMDBserViewSet(viewsets.ModelViewSet):
     search_fields = ['directors', 'description']
     filter_backends = (filters.SearchFilter,)
-    print(f"El valor search_fields es {search_fields}")
     queryset = MovieIMDB.objects.all()
     serializer_class = MovieIMDBSerializer
     # permission_classes = [permissions.IsAuthenticated]
