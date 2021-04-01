@@ -60,10 +60,10 @@ Default django admin is implemented so you can access with user: demo password: 
 
 I deployed this demo to an aws instance you can review this week the api here:
 http://54.158.63.248:8000/backend/api/movies/
-# admin is available:
+## admin is available:
 http://54.158.63.248:8000/admin 
 
-# Github Code is :
+## Github Code is :
 https://github.com/Ave0/nirvanatest
 
 
